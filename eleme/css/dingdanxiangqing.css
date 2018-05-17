@@ -1,0 +1,90 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    background-image: url("../img/dingdanxiangqing/topred.png");
+    background-size: cover;
+    padding: 0.15rem 0.24rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+header .z{
+    font-size: 0.2rem;
+    color: white;
+}
+header .e{
+    font-size: 0.2rem;
+    color: #eeb2ae;
+}
+.content{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.2rem;
+}
+.content li{
+    width: 100%;
+    height: 2.74rem;
+    background-image: url("../img/dingdanxiangqing/wanzheng.png");
+    background-size: cover;
+    margin-top: 0.2rem;
+    position: relative;
+}
+.content li .agin{
+    width: 1.5rem;
+    height: 0.5rem;
+    background-image: url("../img/dingdanxiangqing/agin.png");
+    background-size: cover;
+    position: absolute;
+    bottom: 0.24rem;
+    left: 0.37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content li .agin p{
+    font-size: 0.12rem;
+    color: white;
+}
+.content li .iconfont{
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0.45rem;
+    bottom: 1.13rem;
+}
+.di{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.04rem solid #e1dfdf;
+    align-items: center;
+    box-shadow: 0 -0.04rem 0.18rem  rgba(0,0,0,0.07);
+}
+.di a{
+    width: 25%;
+    height: 0.98rem;
+    background-color: white;
+    font-size: 0.24rem;
+    display: flex;
+    flex-direction: column;
+    /*text-align: center;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.di a i{
+    font-size: 0.4rem;
+}
+.di a .icon-dingdan{
+    font-size: 0.5rem;
+    color:#f03131 ;
+}
+.di .waimai span{
+    width: 0.5rem;
+    text-align: center;
+}

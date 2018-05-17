@@ -1,0 +1,100 @@
+.top{
+    width:100%;
+    height: 5rem;
+    background-image:url("../img/zhifuchenggong/top.png");
+    background-size: cover;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    padding: 0.15rem 0.24rem;
+    box-sizing: border-box;
+}
+.bottom i{
+    font-size: 0.3rem;
+    float: right;
+}
+.bottom .suc{
+    width: 100%;
+    height: auto;
+
+}
+.bottom .suc .shang{
+    width: 100%;
+    height: 50%;
+    font-size: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.bottom .suc .shang .tu{
+    width: 0.57rem;
+    height: 0.43rem;
+    background-image: url("../img/zhifuchenggong/zhanghuyue.png");
+    background-size: cover;
+}
+.bottom .suc p{
+    font-size: 0.3rem;
+    color: #bcb8b8;
+    text-align: center;
+}
+.bottom .fenge{
+    width: 100%;
+    height: 0.02rem;
+    background-color: #bcb8b8;
+    margin-top: 0.24rem;
+}
+.bottom .t{
+    width: 100%;
+    height: 1.48rem;
+    text-align: center;
+}
+.bottom .t span{
+    font-size: 0.5rem;
+    color: #e84c57;
+}
+.bottom .t .r {
+    font-size: 0.6rem;
+    color: #f66202;
+}
+.bottom .total{
+    width: 100%;
+    font-size: 0.3rem;
+    text-align: center;
+    color: #f56895;
+}
+.bottom .dui{
+    width: 1.03rem;
+    height: 1.03rem;
+    background-image: url("../img/zhifuchenggong/success.png");
+    background-size: cover;
+    margin:1rem auto;
+}
+.bottom .xuanze{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+.bottom .xuanze .left{
+    width: 2.12rem;
+    height: 100%;
+    background-image: url("../img/zhifuchenggong/fanhuishouye.png");
+    background-size: cover;
+    font-size: 0.3rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.bottom .xuanze .right{
+    width: 2.12rem;
+    height: 100%;
+    background-image: url("../img/zhifuchenggong/jixuguangguang.png");
+    background-size: cover;
+    font-size: 0.3rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.5rem;
+}

@@ -1,0 +1,325 @@
+header{
+    width: 100%;
+    height: 2.44rem;
+    background-image: url("../img/ciji/hbeijing.png");
+    background-size: 100% 100%;
+    padding: 0 0.24rem ;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.top{
+    width: 100%;
+    height: 0.86rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .icon-fanhui{
+    float: left;
+    font-size: 0.5rem;
+    color: white;
+}
+.top .icon-fenxiang{
+    float: right;
+    font-size: 0.5rem;
+    color: white;
+}
+.top .icon-shoucang{
+    float: right;
+    margin-right: 0.1rem;
+    font-size: 0.5rem;
+    color: white;
+}
+.bottom{
+    width: 100%;
+    height:calc(2.44rem - 0.86rem) ;
+    display: flex;
+}
+.bottom .left{
+    width: 1.96rem;
+    height: 1.96rem;
+    background-image: url("../img/ciji/shoplogo.png");
+    background-size: cover;
+}
+.bottom .right{
+
+    flex-grow: 1;
+    height: 100%;
+    /*width: 1rem;*/
+}
+.bottom .right h3{
+    font-size: 0.3rem;
+    color: white;
+}
+
+.bottom  .right ul li{
+    color: white;
+    font-size: 0.2rem;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+}
+.zhong {
+    width: 100%;
+    height: 0.68rem;
+    border-bottom: 0.02rem solid #c6c6c6;
+    /*background-color: yellow;*/
+    margin-top: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.zhong a{
+    font-size: 0.2rem;
+    float: left;
+
+}
+.zhong .diancan{
+    position: relative;
+}
+.zhong .diancan:before{
+    content: "";
+    width: 100%;
+    height: 0.06rem;
+    background-color: #d23a41;
+    border-radius: 0.03rem;
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0;
+}
+.xia{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.xia .left ul{
+    width: 2.2rem;
+
+}
+.xia .left ul li{
+    width: 100%;
+    height: 1.45rem;
+    background-color: #f7f6f6;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.45rem;
+    border-bottom: 0.02rem solid #cccccc;
+    box-sizing: border-box;
+}
+.xia .left ul .hot{
+    background-color: white;
+    font-weight: bold;
+}
+.xia .right{
+    flex-grow: 1;
+    height: auto;
+
+}
+.xia .right li{
+    width: 100%;
+    height: 1.46rem;
+    border: 0.02rem solid white;
+    margin-top: 0.29rem;
+    display: flex;
+}
+.xia .right li .left{
+    width: 1.45rem;
+    height: 1.45rem;
+    background-image: url("../img/ciji/chanzuiyu.png");
+    background-size: cover;
+}
+.xia .right li .zi{
+    flex-grow: 1;
+    font-size: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.3rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.xia .right li .zi .foodname{
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+.xia .right li .zi .des{
+    color: rgba(0,0,0,0.3);
+}
+.xia .right li .zi .sale{
+    color: rgba(0,0,0,0.3);
+}
+.xia .right li .zi .price{
+    font-size: 0.3rem;
+    color:#f43e2b;
+}
+.xia .right li .zi .btngroup{
+    width: 1.09rem;
+    height: 0.32rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.xia .right li .zi .btngroup .btnl{
+    width: 0.3rem;
+    height: 0.32rem;
+    background-image: url("../img/ciji/jian.png");
+    background-size: cover;
+}
+.xia .right li .zi .btngroup p{
+    height: 0.32rem;
+    flex-grow: 1;
+    text-align: center;
+}
+.xia .right li .zi .btngroup .btnr{
+    width: 0.3rem;
+    height: 0.32rem;
+    background-image: url("../img/ciji/jia.png");
+    background-size: cover;
+}
+/*购物车开始*/
+.whole{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+}
+.tiao1{
+    width: 100%;
+    height: 0.33rem;
+    background-color: #fbf7d8;
+    text-align: center;
+    font-size: 0.18rem;
+    line-height: 0.33rem;
+}
+.yixuan{
+    width: 100%;
+    height: 1.8rem;
+    background-color: #cdc6c6;
+
+
+}
+.yixuan .yixuanbiaoti{
+    width: 100%;
+    height: 0.69rem;
+    font-size: 0.18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #514e4e;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.yixuan .yixuanbiaoti .qingkong{
+    /*width: 0.72rem;*/
+    color: #9b9797;
+
+}
+.yixuan .shangpin{
+    height: calc(1.8rem - 0.69rem);
+    background-color: white;
+    font-size: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.24rem;
+    padding-top: 0.2rem;
+}
+.yixuan .shangpin .mleft{
+    width: 1.59rem;
+}
+.yixuan .shangpin .jright{
+    width: 2.3rem;
+    height: 0.32rem;
+    float: right;
+    position: relative;
+}
+.yixuan .shangpin .jright .jiage{
+    color: #d85f64;
+}
+.yixuan .shangpin .jright .btngroup1{
+    width: 1.09rem;
+    height: 0.32rem;
+    position: absolute;
+    bottom: 0;
+    right: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.yixuan .shangpin .jright .btngroup1 .btnl1{
+    width: 0.3rem;
+    height: 0.32rem;
+    background-image: url("../img/ciji/jian.png");
+    background-size: cover;
+}
+.yixuan .shangpin .jright .btngroup1 p{
+    height: 0.32rem;
+    flex-grow: 1;
+    text-align: center;
+}
+.yixuan .shangpin .jright .btngroup1 .btnr1{
+    width: 0.3rem;
+    height: 0.32rem;
+    background-image: url("../img/ciji/jia.png");
+    background-size: cover;
+}
+.box{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #4c4848;
+    display: flex;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.box .left{
+    width: 5.3rem;
+    display: flex;
+}
+.box ul{
+    font-size: 0.2rem;
+    margin-left: 1.4rem;
+    margin-top: 0.1rem;
+
+
+}
+.box ul  .money{
+    font-size:0.3rem ;
+    color: white;
+}
+.box ul .free{
+    color: #b3b2b2;
+}
+.box .right{
+    flex-grow: 1;
+    background-color: #d23a41;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.98rem;
+    color: #f4d8d9;
+
+}
+.box .gouwuche{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color:#d23a41 ;
+    position: absolute;
+    top: -0.3rem;
+    text-align: center;
+    line-height: 0.8rem;
+    /*position: relative;*/
+}
+.box .gouwuche i{
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.7rem;
+    color:white;
+    /*position: absolute;*/
+    /*top: 0.2rem;*/
+    /*right: 0.2rem;*/
+
+}

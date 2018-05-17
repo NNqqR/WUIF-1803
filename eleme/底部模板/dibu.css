@@ -1,0 +1,35 @@
+.di{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.04rem solid #e1dfdf;
+    align-items: center;
+    box-shadow: 0 -0.04rem 0.18rem  rgba(0,0,0,0.07);
+}
+.di a{
+    width: 25%;
+    height: 0.98rem;
+    background-color: white;
+    font-size: 0.24rem;
+    display: flex;
+    flex-direction: column;
+    /*text-align: center;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.di a i{
+    font-size: 0.4rem;
+}
+.di a .icon-04f{
+    font-size: 0.5rem;
+    color:#f03131 ;
+}
+.di .waimai span{
+    width: 0.5rem;
+    text-align: center;
+}

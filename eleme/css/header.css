@@ -1,0 +1,404 @@
+header{
+    width: 100%;
+    height: 2.6rem;
+    background-image: url("../img/header/header.png");
+    background-size: 100% 100%;
+    padding: 0.17rem 0.98rem 0;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.yang{
+    width: 1.8rem;
+    height:2.3rem;
+    background-image: url("../img/header/yang.png");
+    background-size: cover;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.5rem;
+}
+.dianming{
+    width:1.71rem;
+    height: 0.51rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.3rem;
+    font-size: 0.4rem;
+    color: #ffffff;
+    margin: 0 auto;
+}
+ input{
+    width: 2.9rem;
+    height: 0.38rem;
+    background-color: white;
+    border-radius: 0.05px ;
+    position: absolute;
+    bottom: 1rem;
+    right: 0.4rem;
+     font-size: 0.16rem;
+     text-align: center;
+     background-image: url("../img/header/sousuo.png");
+     background-size: 0.3rem;
+     background-repeat: no-repeat;
+}
+ .dingwei{
+     width: 0.46rem;
+     height: 0.6rem;
+     background-image: url("../img/header/dingwei.png");
+     background-size: cover;
+     margin:0  auto;
+     position: absolute;
+     top: 2.4rem;
+     right: 47%;
+ }
+ .weizhi{
+     width: 1.94rem;
+     height:0.41rem;
+     background-color: #f5dfbf;
+     border-radius: 0.1rem;
+     font-size: 0.14rem;
+     text-align: center;
+     margin-left:37%;
+     margin-top:0.45rem;
+     color: #9e8f8d;
+ }
+ .box{
+     width: 100%;
+     height:2.91rem;
+     margin-top: 0.48rem;
+
+ }
+ .box1{
+     width: 25%;
+     height:1.25rem ;
+     float: left;
+     font-size: 0.28rem;
+     text-align: center;
+ }
+.box2{
+    width: 25%;
+    height:1.25rem ;
+    float: left;
+    margin-top: 0.2rem;
+    font-size: 0.28rem;
+    text-align: center;
+}
+[class^=yuan]{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color:#f5dfbf ;
+    margin: auto auto;
+}
+.yuan1{
+    background-image: url("../img/header/huoguo.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: 0.13rem;
+    background-position-y: 0.1rem;
+}
+.yuan2{
+    background-image: url("../img/header/delicious.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: 0.13rem;
+    background-position-y: 0.1rem;
+}
+.yuan3{
+    background-image: url("../img/header/fast.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: 0.13rem;
+    background-position-y: 0.1rem;
+}
+.yuan4{
+    background-image: url("../img/header/jiushui.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 0.2rem;
+    background-position-y: 0.15rem;
+}
+.yuan5{
+    background-image: url("../img/header/jishida.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 0.2rem;
+    background-position-y: 0.15rem;
+}
+.yuan6{
+    background-image: url("../img/header/sup.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: 0.13rem;
+    background-position-y: 0.1rem;
+}
+.yuan7{
+    background-image: url("../img/header/flowers.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: 0.13rem;
+    background-position-y: 0.1rem;
+}
+.yuan8{
+    background-image: url("../img/header/yiyao.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 0.2rem;
+    background-position-y: 0.15rem;
+}
+
+.hui{
+    margin-top: 10px;
+    width: 100%;
+    height: 0.04rem;
+    background-color: #e9e8e8;
+}
+.adv{
+    display: block;
+    width: 100%;
+    height:1.54rem;
+    font-size: 0.44rem;
+    position: relative;
+    background-color: #f5dfbf;
+}
+
+.adv > .tuijian{
+    width: 4.26rem;
+    height: auto;
+    margin-left: 0.66rem;
+    font-size:0.36rem;
+    color: #d23a41;
+}
+.adv > .dae{
+    width: 5.36rem;
+    height: auto;
+    font-size: 0.36rem;
+    margin-top: 0.3rem;
+    margin-left:1.08rem;
+    color: #d23a41;]
+
+}
+.adv > .ad{
+    width: 2.92rem;
+    height: 1.5rem;
+    background-image: url("../img/adv/baozi.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    float: right;
+    position: absolute;
+    right: 0px;
+    bottom:0px ;
+}
+.dian{
+    width:100%;
+    height: 0.22rem;
+    margin-top:0.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.dian li{
+    margin-top:0.1rem;
+    width: 0.16rem;
+    height:0.16rem;
+    border-radius: 50%;
+    background-color: #aea9a9;
+     float: left;
+    margin-right: 0.1rem;
+
+}
+.dd{
+    background-color:#817a7a;
+}
+.tj{
+    width: 100%;
+    height: 0.74rem;
+    margin-top: 0.6rem;
+    font-size: 0.48rem;
+    text-align: center;
+    line-height: 0.74rem;
+    display: flex;
+    justify-content: space-around;
+}
+.tj span{
+    width: 2rem;
+    height: 0.04rem;
+    background-color: #e9e8e8;
+    margin: auto 0;
+}
+.youxian ul{
+    width: 100%;
+    font-size:0.28rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.youxian ul li{
+    width: 25%;
+}
+.iconfont{
+margin-left: 0.04rem;
+}
+.list{
+    width: 100%;
+    height: auto;
+    padding-top: 0.32rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+
+}
+.list .left{
+    width:1.6rem;
+    height: 1.6rem;
+    background-color: red;
+    background-image: url("../img/list/kaoyu.png");
+    background-size: cover;
+    border-radius: 50%;
+    float: left;
+}
+.list .right{
+    width: 5.22rem;
+    /*display: flex;*/
+    /*flex-grow: 1;*/
+    height: 1.6rem;
+    font-size: 0.32rem;
+    float: left;
+    margin-left: 0.2rem;
+}
+.list .right .r1{
+    width: 100%;
+    height: 0.4rem;
+}
+.list .right .r1 .shopming{
+    width: 1.9rem;
+    float: left;
+}
+.list .right .r1 .more{
+    float: right;
+}
+.list .right .r2{
+    width: 100%;
+    height:0.5rem;
+    margin-top:0.04rem;
+    /*display: flex;*/
+    /*align-items:center;*/
+}
+.list .right .r2 .haoping{
+    width:1.2rem;
+    height: 0.4rem;
+    background-image: url("../img/list/wuxing.png");
+    background-position-y: -0.14rem;
+    background-size:90% ;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.list .right .r2 .yuexiao{
+    float: left;
+    font-size: 0.24rem;
+}
+.list .right .r2 .zhunshi{
+    width: 0.94rem;
+    height: 0.4rem;
+    float: right;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+    background-color: #f49b9b;
+    margin-left: 0.1rem;
+}
+.list .right .r2 .fengniao{
+    width: 1.26rem;
+    height: 0.4rem;
+    box-sizing: border-box;
+    float: right;
+    font-size: 14px;
+    background-color: #f49b9b;
+}
+.list .right .r3{
+    width: 100%;
+    height:0.4rem;
+}
+.list .right .r3 .kuang{
+    width: 0.86rem;
+    height:0.4rem;
+    background-color: #f49b9b;
+    float: left;
+    font-size:0.24rem;
+    text-align: center;
+}
+.list .right .r3 span{
+    font-size: 0.24rem;
+    float: left;
+    margin-left: 0.2rem;
+
+}
+.list .right .r4{
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.1rem;
+}
+.list .right .r4 .hkuang{
+    width: 0.86rem;
+    height: 0.4rem;
+    background-color: #f49b9b;
+    float: left;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.list .right .r4 span{
+    font-size: 0.24rem;
+    float: left;
+    margin-left: 0.2rem;
+
+}
+.list .list2{
+    margin-top: 2.4rem;
+}
+.list .list3{
+    margin-top: 4.8rem;
+}
+.list .list4{
+    margin-top: 7.2rem;
+}
+.list .list5{
+    margin-top: 9.6rem;
+}
+
+.di{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.04rem solid #e1dfdf;
+    align-items: center;
+    box-shadow: 0 -0.04rem 0.18rem  rgba(0,0,0,0.07);
+}
+.di a{
+    width: 25%;
+    height: 0.98rem;
+    background-color: white;
+    font-size: 0.24rem;
+    display: flex;
+    flex-direction: column;
+    /*text-align: center;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.di a i{
+    font-size: 0.4rem;
+}
+.di a .i1{
+    font-size: 0.5rem;
+    color:#f03131 ;
+}
+.di .waimai span{
+    width: 0.5rem;
+    text-align: center;
+}

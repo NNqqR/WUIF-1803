@@ -1,0 +1,290 @@
+header{
+    width: 100%;
+    height: 3.65rem;
+    background-image: url("../img/querendingdan/topbj.png");
+    background-size: cover;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+}
+header .fan{
+    width: 100%;
+    height: 0.78rem;
+}
+header .fan i{
+    font-size: 0.3rem;
+    float: left;
+    line-height: 0.78rem;
+    font-weight: bold;
+}
+header .peisongzhi{
+    width: 2rem;
+    height: 0.46rem;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+
+}
+header .peisongzhi span{
+    font-size: 0.2rem;
+    float: left;
+    line-height: 0.46rem;
+    color: white;
+}
+header .peisongzhi  i{
+    width: 0.7rem;
+    font-size: 0.3rem;
+    border: 0.02rem solid white;
+    font-style: normal;
+    float: left;
+    color: white;
+    text-align: center;
+}
+header .didian{
+    width: 100%;
+    height: 0.52rem;
+    margin-top: 0.46rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .didian .zi{
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+header .didian i{
+    font-size: 0.3rem;
+}
+header .people{
+    width: 3.06rem;
+    height: 0.48rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.48rem;
+}
+header .people .name{
+    font-size: 0.2rem;
+}
+header .people .tel{
+    font-size: 0.2rem;
+}
+header .baihe{
+    width: 7.02rem;
+    height: 2.46rem;
+    background-color: white;
+    border:  0.02rem solid #b9b0b1;
+    border-radius: 0.3rem;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+header .baihe .daodatime{
+    width: 6.48rem;
+    height: 50%;
+    border-bottom: 0.02rem solid #d6d2d2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .baihe .daodatime p{
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+header .baihe .daodatime .quickly{
+    color: #d23a41;
+}
+header .baihe .paymethod{
+    width: 6.48rem;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .baihe .paymethod p{
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+header .baihe .paymethod .yu{
+    color: #d23a41;
+}
+.second{
+    width: 7.02rem;
+    height: 4.6rem;
+    border: 0.02rem solid #b9b0b1;
+    border-radius: 0.3rem;
+    margin: 1.49rem 0.24rem 0;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+.second .shopname{
+    width: 6.48rem;
+    height: 0.94rem;
+    border-bottom: 0.02rem solid #b9b0b1;
+    font-size: 0.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.second .dongxi{
+    width: 6.48rem;
+    height: 1.8rem;
+    border-bottom: 0.02rem solid #b9b0b1;
+    display: flex;
+    justify-content: space-between;
+}
+.second .dongxi .left{
+    width: 2.66rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second .dongxi .left .pic{
+    width: 1.07rem;
+    height: 1.07rem;
+    background-image: url("../img/ciji/chanzuiyu.png");
+    background-size: cover;
+}
+.second .dongxi .left p{
+    width: 1.22rem;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+.second .dongxi .right{
+    width: 1.47rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second .dongxi .right p{
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+.second .hongbao{
+    width: 6.48rem;
+    height: 0.95rem;
+    border-bottom: 0.02rem solid #b9b0b1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second .hongbao .left{
+    width: 0.7rem;
+    font-size: 0.2rem;
+}
+.second .hongbao .right {
+    width: 1.54rem;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+.second .total{
+    width: 6.48rem;
+    height: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second .total p{
+    font-size: 0.2rem;
+}
+.second .total .right{
+    font-weight: bold;
+}
+.third{
+    width: 7.02rem;
+    height: 2.47rem;
+    border: 0.02rem solid #b9b0b1;
+    border-radius: 0.3rem;
+    margin: 0.26rem 0.24rem 0;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+.third .top{
+    width: 6.48rem;
+    height: 50%;
+    border-bottom:0.02rem solid #b9b0b1 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third .top p{
+    font-size: 0.2rem;
+}
+.third .top .beizhu{
+    font-weight:bold;
+}
+.third .bottom{
+    width: 6.48rem;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third .bottom p{
+    font-size: 0.2rem;
+}
+.third .bottom .beizhu{
+    font-weight:bold;
+}
+/*购物车开始*/
+.whole{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+}
+.box{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #4c4848;
+    display: flex;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.box .left{
+    width: 5.3rem;
+    display: flex;
+}
+.box ul{
+    font-size: 0.2rem;
+    margin-left: 1.4rem;
+    margin-top: 0.1rem;
+
+
+}
+.box ul  .money{
+    font-size:0.3rem ;
+    color: white;
+}
+.box ul .free{
+    color: #b3b2b2;
+}
+.box .right{
+    flex-grow: 1;
+    background-color: #d23a41;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.98rem;
+    color: #f4d8d9;
+
+}
+.box .gouwuche{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color:#d23a41 ;
+    position: absolute;
+    top: -0.3rem;
+    text-align: center;
+    line-height: 0.8rem;
+    /*position: relative;*/
+}
+.box .gouwuche i{
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.7rem;
+    color:white;
+    /*position: absolute;*/
+    /*top: 0.2rem;*/
+    /*right: 0.2rem;*/
+
+}
